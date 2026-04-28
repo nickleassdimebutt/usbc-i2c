@@ -1,0 +1,25 @@
+# KiCad lock / backup files
+*.lck
+*-backups/
+_autosave-*
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# Fabrication outputs (rebuild on demand)
+output/fab/
+variants/*/output/fab/
+
+# Datasheet preview pages (regenerate on demand for QA via pdftoppm)
+output/docs/preview/
+variants/*/output/docs/preview/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local history (VS Code)
+.history/
+
+# Stale legacy DRC report (we use output/drc/ now)
+/drc_report.txt

@@ -1,0 +1,81 @@
+** Drc report for usbc-i2c.kicad_pcb **
+** Created on 2026-04-28T03:14:18 **
+** Report includes: Errors, Warnings **
+
+** Found 6 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(11.8000 mm, 10.5000 mm): Track [VBUS] on F.Cu, length 9.0000 mm
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(0.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(3.0000 mm, -0.1500 mm): Reference field of H1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(43.6200 mm, 24.0000 mm): Segment of J2 on F.Silkscreen
+    @(47.0000 mm, 23.8500 mm): Reference field of H2
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(47.0000 mm, 23.8500 mm): Reference field of H2
+    @(46.3800 mm, 16.2700 mm): Segment of J2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(11.1450 mm, 15.0000 mm): Reference field of J1
+    @(12.0500 mm, 15.0000 mm): Pad 1 [VBUS] of C1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9.0000 mm, 20.3300 mm): Reference field of R2
+    @(8.6300 mm, 19.3200 mm): PTH pad SH [GND] of J1
+
+** Found 10 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(22.0000 mm, 11.8500 mm): Pad 2 [+3V3] of U1 on F.Cu
+    @(22.0000 mm, 18.1500 mm): Pad 2 [+3V3] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(22.0000 mm, 18.1500 mm): Pad 2 [+3V3] of U1 on F.Cu
+    @(29.5200 mm, 19.5000 mm): Pad 1 [+3V3] of C3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(29.0500 mm, 10.5000 mm): Pad 1 [+3V3] of C2 on F.Cu
+    @(22.0000 mm, 11.8500 mm): Pad 2 [+3V3] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(36.4900 mm, 21.0000 mm): Pad 1 [+3V3] of R3 on F.Cu
+    @(29.5200 mm, 19.5000 mm): Pad 1 [+3V3] of C3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(36.4900 mm, 21.0000 mm): Pad 1 [+3V3] of R3 on F.Cu
+    @(37.4900 mm, 12.5000 mm): Pad 1 [+3V3] of R11 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(37.4900 mm, 12.5000 mm): Pad 1 [+3V3] of R11 on F.Cu
+    @(37.4900 mm, 8.5000 mm): Pad 1 [+3V3] of R10 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(37.4900 mm, 12.5000 mm): Pad 1 [+3V3] of R11 on F.Cu
+    @(45.0000 mm, 15.0000 mm): PTH pad 1 [+3V3] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(32.9375 mm, 21.0000 mm): Pad 2 [N_D1] of D1 on F.Cu
+    @(37.5100 mm, 21.0000 mm): Pad 2 [N_D1] of R3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(38.5100 mm, 8.5000 mm): Pad 2 [SDA] of R10 on F.Cu
+    @(45.0000 mm, 20.0800 mm): PTH pad 3 [SDA] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(38.5100 mm, 12.5000 mm): Pad 2 [SCL] of R11 on F.Cu
+    @(45.0000 mm, 22.6200 mm): PTH pad 4 [SCL] of J2
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
